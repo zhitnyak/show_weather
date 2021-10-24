@@ -13,7 +13,6 @@ body {
 .card {
   background: black;
   color: white;
-  /* padding: 2em; */
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
@@ -31,7 +30,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2em;
-  /* border-radius: 30px; */
 }
 
 button {
@@ -40,7 +38,7 @@ button {
   border: none;
   padding: 20px;
   outline: none;
-  background: #22212162;
+  background: #21212262;
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -53,14 +51,14 @@ input.searchBar {
   border-radius: 24px;
   background: #0000002b;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(5, 5, 5);
   font-family: inherit;
   font-size: 105%;
   width: calc(100% - 100px);
 }
 
 button:hover {
-  background: #f0c5c56b;
+  background: #fff;
   color: #0000006c;
 }
 
@@ -70,8 +68,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 2em;
-
-  /* border-radius: 30px; */
 }
 
 .city {
